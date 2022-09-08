@@ -18,6 +18,5 @@ ALL_BRANCHS := 1 2 3 4 5 6 7 8
 
 check_all:
 	cd $(target_dir) && \
-	for ch in $(ALL_BRANCHS); do \
-		$(GIT) checkout ch$$(ch); $(MAKE) check; \
-	done
+	$(foreach ch, $(ALL_BRANCHS), $(GIT) checkout ch$(ch); $(MAKE) check;)
+

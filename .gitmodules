@@ -1,6 +1,6 @@
 [submodule "rCore-Tutorial-v3-arm64"]
 	path = aarch64
-	url = git@github.com:DeathWish5/rCore-Tutorial-v3-arm64.git
+	url = https://github.com/DeathWish5/rCore-Tutorial-v3-arm64.git
 [submodule "rCore-Tutorial-v3"]
 	path = riscv64
-	url = git@github.com:rcore-os/rCore-Tutorial-v3.git
+	url = https://github.com/DeathWish5/rCore-Tutorial-v3.git
